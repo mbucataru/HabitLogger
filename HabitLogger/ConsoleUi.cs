@@ -51,6 +51,8 @@ public static class ConsoleUi
     /*
      * NOTE: There is a very real chance that literally all of these functions are useless and will just be
      * 1-2 line calls to DatabaseManager. If that is the case, probably remove them.
+     * Additionally, Close() may literally be no longer other than a print statement, since DatabaseManager
+     * is a static class.
      */
     private static void Close()
     {
