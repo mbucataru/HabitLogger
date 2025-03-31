@@ -1,6 +1,6 @@
 namespace HabitLogger;
 
-public class DatabaseManager
+public static class DatabaseManager
 {
     
 }
